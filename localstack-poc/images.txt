@@ -1,0 +1,804 @@
+{
+    "Images": [
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-03cf127a",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-cba4632e",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2016 Nano Locale English AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2016-English-Nano-Base-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-12c6146b",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-20567998",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2008 R2 SP1 Datacenter 64-bit Locale English Base AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2008-R2_SP1-English-64Bit-Base-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-1812c061",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-678fd4dd",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2016 Locale English with SQL Standard 2016 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2016-English-Full-SQL_2016_SP1_Standard-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-1ecc1e67",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-87cdeef9",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2012 R2 RTM 64-bit Locale English AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2012-R2_RTM-English-64Bit-Base-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-1f12c066",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-94351073",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2016 Locale English with SQL Express 2016 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2016-English-Full-SQL_2016_SP1_Express-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-24f3215d",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-fe37f04b",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2012 R2 RTM 64-bit Locale English with SQL Web 2014 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2012-R2_RTM-English-64Bit-SQL_2014_SP2_Web-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-3bf32142",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-2e769991",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2012 R2 RTM 64-bit Locale English with SQL Express 2016 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2012-R2_RTM-English-64Bit-SQL_2016_SP1_Express-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-3df32144",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-b4b6a22f",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2012 R2 RTM 64-bit Locale English with SQL Enterprise 2016 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2012-R2_RTM-English-64Bit-SQL_2016_SP1_Enterprise-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-56ec3e2f",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-9af66a79",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2016 Locale English with SQL Express 2017 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2016-English-Full-SQL_2017_Express-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-61db0918",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-655ec567",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2003 R2 SP2 Datacenter 64-bit Locale English Base AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2003-R2_SP2-English-64Bit-Base-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-6ef02217",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-b17f7c06",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2012 R2 RTM 64-bit Locale English with SQL Web 2016 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2012-R2_RTM-English-64Bit-SQL_2016_SP1_Web-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-77ed3f0e",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-046d7582",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2016 Full Locale English with SQL Enterprise 2016 SP1 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2016-English-Full-SQL_2016_SP1_Enterprise-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-84ee3cfd",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-89374ccd",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2016 Locale English with SQL Web 2017 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2016-English-Full-SQL_2017_Web-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-86ee3cff",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-56ffab1e",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2016 Locale English with SQL Standard 2017 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2016-English-Full-SQL_2017_Standard-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-a9cc1ed0",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-d2cb9c82",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2012 R2 RTM 64-bit Locale English with SQL Standard 2014 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2012-R2_RTM-English-64Bit-SQL_2014_SP2_Standard-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-afee3cd6",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-8c0e6046",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2016 Locale English with SQL Web 2016 SP1 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2016-English-Full-SQL_2016_SP1_Web-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-b7e93bce",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-46453392",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2016 with Desktop Experience Locale English AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2016-English-Full-Base-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-bceb39c5",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-1577dea8",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2016 with Containers Locale English AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2016-English-Full-Containers-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-c2ff2dbb",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-e92e68dc",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2012 RTM 64-bit Locale English Base AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2012-RTM-English-64Bit-Base-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-c6f321bf",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-40d1b22c",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2012 R2 RTM 64-bit Locale English with SQL Express 2014 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2012-R2_RTM-English-64Bit-SQL_2014_SP2_Express-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-d1cb19a8",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-0656924f",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2008 SP2 Datacenter 64-bit Locale English Base AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2008-SP2-English-64Bit-Base-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-f0e83a89",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-cdbe6440",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2016 Locale English with SQL Enterprise 2017 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2016-English-Full-SQL_2017_Enterprise-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-f4cf1d8d",
+            "ImageLocation": "amazon/getting-started",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-aa26b4a7",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2012 R2 RTM 64-bit Locale English with SQL Standard 2016 AMI provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2012-R2_RTM-English-64Bit-SQL_2016_SP1_Standard-2017.10.13",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-ekswin",
+            "ImageLocation": "amazon/amazon-eks",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "windows",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-f60aed44",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "Microsoft Windows Server 2019 Core optimized for EKS and provided by Amazon",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2019-English-Core-EKS_Optimized",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        },
+        {
+            "Architecture": "x86_64",
+            "CreationDate": "2023-08-24T16:57:43.000Z",
+            "ImageId": "ami-ekslinux",
+            "ImageLocation": "amazon/amazon-eks",
+            "ImageType": "machine",
+            "Public": true,
+            "KernelId": "None",
+            "OwnerId": "801119661308",
+            "Platform": "Linux/UNIX",
+            "RamdiskId": "ari-1a2b3c4d",
+            "State": "available",
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1",
+                    "Ebs": {
+                        "DeleteOnTermination": false,
+                        "SnapshotId": "snap-7f639e05",
+                        "VolumeSize": 15,
+                        "VolumeType": "standard"
+                    }
+                }
+            ],
+            "Description": "EKS Kubernetes Worker AMI with AmazonLinux2 image",
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "amazon-eks-node-linux",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "Tags": [],
+            "VirtualizationType": "hvm"
+        }
+    ]
+}
